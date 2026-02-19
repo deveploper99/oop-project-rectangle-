@@ -5,10 +5,15 @@ package org.rtxrassel;
 public class Main {
     static void main() {
      Shape rec = new Rectangle(10,12);
-        rec.getArea();
-        rec.getperimeter();
 
         System.out.println("Rectangle: = "+rec.getArea());
         System.out.println("Perimeter: = "+rec.getperimeter());
+
+        System.out.println("++++++++++++++++++++++++++++");
+
+        Shape circle = new Circle(5);
+        System.out.println("Rectangle: = "+circle.getArea());
+        System.out.println("Perimeter: = "+circle.getperimeter());
+
     }
 }
