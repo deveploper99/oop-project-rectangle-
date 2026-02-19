@@ -1,0 +1,14 @@
+package org.rtxrassel;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    static void main() {
+     Shape rec = new Rectangle(10,12);
+        rec.getArea();
+        rec.getperimeter();
+
+        System.out.println("Rectangle: = "+rec.getArea());
+        System.out.println("Perimeter: = "+rec.getperimeter());
+    }
+}
